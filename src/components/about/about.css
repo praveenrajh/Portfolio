@@ -1,0 +1,40 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  gap: 15%;
+}
+
+.about__me {
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.basic__details {
+  margin-top: 4px;
+  padding-left: 10px;
+}
+
+small {
+  padding-left: 10px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+}

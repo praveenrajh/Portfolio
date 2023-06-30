@@ -2,7 +2,7 @@ import React from "react";
 import "./cirtifications.css";
 
 const Cirtifications = () => {
-  return <div>Cirtifications</div>;
+  return <section id="cirtifications">Cirtifications</section>;
 };
 
 export default Cirtifications;
