@@ -1,3 +1,4 @@
+/* 
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;400;500;600&display=swap");
 
 * {
@@ -40,7 +41,7 @@ body {
   line-height: 1.7;
 }
 
-/* ========== GENERAL STYLES ============= */
+/* ========== GENERAL STYLES ============= 
 .container {
   width: var(--container-width-lg);
   margin: auto;
@@ -109,7 +110,7 @@ img {
   object-fit: cover;
 }
 
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== 
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
@@ -120,7 +121,7 @@ img {
   }
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== 
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
@@ -130,3 +131,4 @@ img {
     margin-bottom: 2rem;
   }
 }
+*/
