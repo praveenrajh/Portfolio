@@ -1,5 +1,4 @@
-/* 
-@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -19,7 +18,7 @@
   --color-white: #fff;
   --color-dark: #101010;
 
-  --transition: all 400ms ease
+  --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -35,23 +34,27 @@ html {
 }
 
 body {
-  font-family: "Ysabeau Infant", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-dark);
   line-height: 1.7;
 }
 
-/* ========== GENERAL STYLES ============= 
+/* ========== GENERAL STYLES ============= */
 .container {
   width: var(--container-width-lg);
   margin: auto;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
 }
 
@@ -59,7 +62,8 @@ section {
   margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-dark);
 }
@@ -110,7 +114,7 @@ img {
   object-fit: cover;
 }
 
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== 
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
@@ -121,7 +125,7 @@ img {
   }
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICES) ========== 
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
@@ -131,4 +135,3 @@ img {
     margin-bottom: 2rem;
   }
 }
-*/
