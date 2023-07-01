@@ -25,7 +25,8 @@ small {
     gap: 0;
   }
 
-  .about__me {
+  .about__me,
+  .basic__details {
     width: 50%;
     margin: 2rem auto 4rem;
   }
@@ -33,7 +34,8 @@ small {
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
-  .about__me {
+  .about__me,
+  .basic__details {
     width: 65%;
     margin: 0 auto 3rem;
   }
