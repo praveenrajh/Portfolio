@@ -1,9 +1,5 @@
 import React from "react";
 import "./about.css";
-import { CiMobile1 } from "react-icons/ci";
-import { CiMail } from "react-icons/ci";
-import { GoLocation } from "react-icons/go";
-import { SiGoogletranslate } from "react-icons/si";
 
 const About = () => {
   return (
