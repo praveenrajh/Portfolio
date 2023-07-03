@@ -8,6 +8,10 @@
   line-height: 2.5rem;
 }
 
+.about__me-item {
+  font-size: 0.9rem;
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
   .about__container {
