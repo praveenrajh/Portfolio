@@ -87,6 +87,11 @@ label {
   .container.contact__container {
     width: var(--container-width-ms);
   }
+  input,
+  textarea,
+  p {
+    width: 95%;
+  }
   .contact__socials {
     display: flex;
     flex-direction: row;
