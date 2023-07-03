@@ -17,24 +17,9 @@ const About = () => {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem expedita consequatur porro doloremque dolorum
             nesciunt eos minima rem cupiditate sint deleniti iusto, dolores
-            neque explicabo est dicta eaque ut. Excepturi.
+            neque explicabo est dicta eaque ut. Excepturi. Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit.
           </p>
-        </div>
-        <div className="basic__info">
-          <h3>Basic Info</h3>
-          <div className="basic__details">
-            <CiMail /> <small>dev.praveenraj@gmail.com</small>
-          </div>
-          <div className="basic__details">
-            <CiMobile1 /> <small>+91 9514536371</small>
-          </div>
-          <div className="basic__details">
-            <GoLocation /> <small>Kanyakumari, India</small>
-          </div>
-          <div className="basic__details">
-            <SiGoogletranslate />
-            <small>Tamil, English, Malayalam, Hindi</small>
-          </div>
         </div>
       </div>
     </section>

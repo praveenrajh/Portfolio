@@ -1,21 +1,11 @@
 .about__container {
-  display: grid;
-  grid-template-columns: 50% 35%;
-  gap: 15%;
+  display: flex;
+  justify-content: center;
 }
 
 .about__me {
   text-align: center;
   line-height: 2.5rem;
-}
-
-.basic__details {
-  margin-top: 4px;
-  padding-left: 10px;
-}
-
-small {
-  padding-left: 10px;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

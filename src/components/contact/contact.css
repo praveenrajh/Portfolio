@@ -1,0 +1,112 @@
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 68% 20%;
+  gap: 12%;
+}
+
+h3 {
+  color: var(--color-primary);
+}
+
+p {
+  font-size: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+/*========== FORM ==========*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-dark);
+}
+
+label {
+  margin-bottom: 0.2rem;
+  font-size: 0.85rem;
+}
+
+/* ===== CONTACT SOCIAL ===== */
+
+.contact__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  bottom: 0;
+  margin: 10rem 0 0 10rem;
+}
+
+.contact__socials::before {
+  content: "";
+  width: 1px;
+  height: 3rem;
+  background: var(--color-primary);
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contact__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 0 0 5rem;
+  }
+  .contact__socials::before {
+    content: "";
+    width: 3rem;
+    height: 1px;
+    background: var(--color-primary);
+  }
+  .contact__socials::after {
+    content: "";
+    width: 3rem;
+    height: 1px;
+    background: var(--color-primary);
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  .contact__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    margin: 0;
+  }
+  .contact__socials::before {
+    content: "";
+    width: 3rem;
+    height: 1px;
+    background: var(--color-primary);
+  }
+  .contact__socials::after {
+    content: "";
+    width: 3rem;
+    height: 1px;
+    background: var(--color-primary);
+  }
+}
