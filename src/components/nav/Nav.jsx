@@ -5,7 +5,6 @@ import { AiOutlineUser } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
 import { BiBook } from "react-icons/bi";
 import { MdWork } from "react-icons/md";
-import { GiGolfFlag } from "react-icons/gi";
 import { BiMessageDetail } from "react-icons/bi";
 import { useState } from "react";
 
@@ -47,13 +46,6 @@ const Nav = () => {
         className={activeNav === "#projects" ? "active" : ""}
       >
         <MdWork />
-      </a>
-      <a
-        href="#cirtifications"
-        onClick={() => setActiveNav("#cirtifications")}
-        className={activeNav === "#cirtifications" ? "active" : ""}
-      >
-        <GiGolfFlag />
       </a>
       <a
         href="#contact"
