@@ -34,6 +34,20 @@ const data = [
     github: "https://github.com",
     demo: "https://phenomenal-smakager-5b7bce.netlify.app/",
   },
+  {
+    id: 5,
+    image: IMG4,
+    title: "Therla",
+    github: "https://github.com",
+    demo: "https://phenomenal-smakager-5b7bce.netlify.app/",
+  },
+  {
+    id: 6,
+    image: IMG4,
+    title: "Xoxo",
+    github: "https://github.com",
+    demo: "https://phenomenal-smakager-5b7bce.netlify.app/",
+  },
 ];
 
 const Projects = () => {
@@ -41,8 +55,25 @@ const Projects = () => {
     <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
-
-      <div className="container project__container">project</div>
+      <div className="container">
+        <div className=" project__container">
+          {data.map(({ image, title, github, demo }) => {
+            return (
+              <div className="project__card">
+                <img src={image} alt="Card Image 1" />
+                <div className="project__description">
+                  <h3>{title}</h3>
+                  <p>Description of Card 1 goes here.</p>
+                </div>
+                <div className="project__card-buttons">
+                  <button>Github</button>
+                  <button>Live</button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
 };

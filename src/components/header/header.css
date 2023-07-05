@@ -38,13 +38,19 @@ header {
 
 /* ===== ME ===== */
 .me {
-  width: 14rem;
-  height: 14rem;
+  width: 12rem;
+  height: 12rem;
   position: relative;
   left: calc(50% - 7rem);
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   overflow: hidden;
+}
+
+.header__img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* ===== SCROLL DOWN ===== */

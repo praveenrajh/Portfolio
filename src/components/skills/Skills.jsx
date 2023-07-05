@@ -82,12 +82,16 @@ const Skills = () => {
       <h5>Here comes my key</h5>
       <h2>Skills</h2>
 
-      <div className="skills__container container grid section__border">
+      <div className="skills-container">
         {skData.map(({ image, title }) => {
           return (
-            <div className="skills__content">
-              <img src={image} alt={title} className="skills__img" />
-              <p className="skills__title">{title}</p>
+            <div className="skills__card">
+              <div className="skills__img">
+                <img src={image} alt="Card Image 1" className="skills__image" />
+              </div>
+              <div className="skills__name">
+                <p className="skills__title">{title}</p>
+              </div>
             </div>
           );
         })}

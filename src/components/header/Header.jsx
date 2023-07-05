@@ -9,7 +9,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <div className="me">
-          <img src={ME} alt="me" />
+          <img src={ME} alt="me" className="header__img" />
         </div>
         <h5>Hello I'm</h5>
         <h1>Praveen Raj S</h1>
