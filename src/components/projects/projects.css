@@ -64,6 +64,6 @@
 
 @media (max-width: 600px) {
   .project__card {
-    width: 90%;
+    width: 80%;
   }
 }

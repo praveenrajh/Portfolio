@@ -42,19 +42,19 @@
 } */
 
 @media (max-width: 1000px) {
-  .card {
+  .skills__card {
     width: 30%;
   }
 }
 
 @media (max-width: 600px) {
-  .card {
+  .skills__card {
     width: 45%;
   }
 }
 
 @media (max-width: 380px) {
-  .card {
+  .skills__card {
     width: 90%;
   }
 }
