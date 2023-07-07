@@ -16,12 +16,13 @@
 
 .project__card img {
   width: 100%;
-  height: auto;
+  height: 45%;
   border-radius: 5px;
 }
 
 .project__description {
   margin-top: 10px;
+  height: 40%;
 }
 
 .project__description h3 {
@@ -39,6 +40,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+  bottom: 2%;
 }
 
 .project__card-buttons button {
@@ -62,8 +64,20 @@
   }
 }
 
+@media (max-width: 800px) {
+  .project__card {
+    width: 60%;
+  }
+  .project__description {
+    margin: 10px 0 10px 0;
+  }
+}
+
 @media (max-width: 600px) {
   .project__card {
     width: 80%;
+  }
+  .project__description {
+    margin: 10px 0 10px 0;
   }
 }

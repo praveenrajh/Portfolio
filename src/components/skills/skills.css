@@ -24,6 +24,12 @@
   background: rgb(66, 66, 66);
 }
 
+.skills__card:hover {
+  background: var(--color-bg);
+  border: 1px solid rgba(255, 255, 254, 0.76);
+  color: var(--color-primary);
+}
+
 .skills__card .skills__image {
   width: 3rem;
   height: 3rem;
